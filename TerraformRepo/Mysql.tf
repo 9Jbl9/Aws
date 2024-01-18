@@ -11,7 +11,7 @@
    username            = "admin"
    password            = "Passw0rd!123"
    publicly_accessible = true //Default is false
-   skip_final_snapshot = true
+   skip_final_snapshot = true //Default is false ( If true is specified, no DBSnapshot is created before the DB instance is deleted)
 
    tags = {
      Name = "MyRDS"
