@@ -10,7 +10,7 @@
    instance_class      = "db.t2.micro"
    username            = "admin"
    password            = "Passw0rd!123"
-   publicly_accessible = true
+   publicly_accessible = true //Default is false
    skip_final_snapshot = true
 
    tags = {
